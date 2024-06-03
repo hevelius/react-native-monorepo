@@ -1,0 +1,17 @@
+{
+  "name": "io-mono",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "mobile": "yarn workspace mobile",
+    "first-module": "yarn workspace first-module",
+    "second-module": "yarn workspace second-module",
+    "shared": "yarn workspace shared"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.6.1"
+}
